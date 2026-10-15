@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Būte Sleep Soundsのサポート・お問い合わせページです。">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>サポート | Būte Sleep Sounds</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #f7f6f2;
+      --surface: #ffffff;
+      --text: #303b35;
+      --muted: #737d75;
+      --accent: #617d6c;
+      --border: #e4e7df;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system, BlinkMacSystemFont,
+        "Hiragino Kaku Gothic ProN", "Yu Gothic",
+        Meiryo, sans-serif;
+      line-height: 1.9;
+      overflow-wrap: anywhere;
+    }
+    a {
+      color: var(--accent);
+      text-underline-offset: 4px;
+    }
+    .page-header {
+      padding: 54px 20px 42px;
+      text-align: center;
+      background: #edf0e8;
+      border-bottom: 1px solid var(--border);
+    }
+    .brand {
+      margin: 0 0 12px;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(25px, 5vw, 34px);
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+    main {
+      width: min(100% - 32px, 760px);
+      margin: 32px auto 60px;
+    }
+    .support-section {
+      padding: 24px;
+      margin-bottom: 16px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+    }
+    .support-section p {
+      margin: 0 0 12px;
+    }
+    .support-section p:last-child {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin: 0 0 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      font-size: 17px;
+      font-weight: 600;
+    }
+    .contact-email {
+      display: inline-block;
+      margin-top: 8px;
+      font-weight: 600;
+    }
+    .faq-item {
+      margin-bottom: 18px;
+    }
+    .faq-item:last-child {
+      margin-bottom: 0;
+    }
+    .faq-item h3 {
+      margin: 0 0 6px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .faq-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .page-footer {
+      padding: 26px 16px 36px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .page-footer p {
+      margin: 4px 0;
+    }
+    @media (max-width: 480px) {
+      .page-header {
+        padding: 40px 18px 32px;
+      }
+      main {
+        width: calc(100% - 24px);
+        margin-top: 20px;
+      }
+      .support-section {
+        padding: 19px 17px;
+        border-radius: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <p class="brand">Būte</p>
+    <h1>サポート</h1>
+    <p>Būte Sleep Sounds</p>
+  </header>
+
+  <main>
+    <section class="support-section">
+      <h2>お問い合わせ</h2>
+      <p>
+        アプリに関するご質問・不具合のご報告・ご要望などがございましたら、
+        下記のメールアドレスまでお気軽にご連絡ください。
+      </p>
+      
+        class="contact-email"
+        href="mailto:bute.support@gmail.com?subject=%E3%80%90B%C5%ABte%20Sleep%20Sounds%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B"
+      >bute.support@gmail.com</a>
+    </section>
+
+    <section class="support-section">
+      <h2>よくあるご質問</h2>
+
+      <div class="faq-item">
+        <h3>プレミアムプランを解約したい</h3>
+        <p>
+          iPhoneの「設定」アプリ →
+          ご自身のお名前 → 「サブスクリプション」から、
+          いつでも解約手続きができます。
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>機種変更したら、購入した内容が消えてしまった</h3>
+        <p>
+          アプリ内の「プレミアムについて」の画面にある
+          「購入を復元する」をお試しください。
+          同じApple IDでログインしていれば復元できます。
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <h3>保存した音声やミックスを引き継ぎたい</h3>
+        <p>
+          お気に入り・保存・ミックスなどのデータは端末内に保存されており、
+          現在のところ他端末への引き継ぎには対応しておりません。
+        </p>
+      </div>
+    </section>
+
+    <section class="support-section">
+      <h2>関連ページ</h2>
+      <p>
+        <a href="./terms.html">利用規約</a><br>
+        <a href="./privacy.html">プライバシーポリシー</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>© 2026 Būte</p>
+    <p>Būte Sleep Sounds</p>
+  </footer>
+</body>
+</html>
