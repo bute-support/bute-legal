@@ -77,7 +77,7 @@
     }
     .faq-item p {
       margin: 0;
-      color: var(--muted);
+      color: #555;
       font-size: 14px;
     }
     /* 解約案内を目立たせる */
@@ -103,6 +103,13 @@
       display: inline-block;
       margin-top: 4px;
       font-weight: 600;
+    }
+    .faq-item.cancellation-guide .cancellation-note {
+      margin-top: 18px;
+      padding-top: 12px;
+      border-top: 1px solid #dce5e6;
+      color: #666;
+      font-size: 13px;
     }
     p {
       margin: 8px 0 12px;
@@ -197,7 +204,7 @@
           </a>
         </p>
 
-        <p class="platform-label">
+        <p class="cancellation-note">
           ※アプリをアンインストールしただけでは、定期購入は解約されません。
           解約後も、お支払い済みの期間が終了するまではプレミアム機能をご利用いただけます。
         </p>
